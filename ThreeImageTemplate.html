@@ -1,5 +1,3 @@
-
-<!DOCTYPE html>
 <html>
     <head>
     <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
@@ -9,49 +7,49 @@
 /* Taking power control over styles */
         
 table {
-	border-collapse: collapse;
-	mso-table-lspace: 0pt;
-	mso-table-rspace: 0pt;
+  border-collapse: collapse;
+  mso-table-lspace: 0pt;
+  mso-table-rspace: 0pt;
 }
 table td {
-	border-collapse: collapse;
+  border-collapse: collapse;
 }
 body {
-	-ms-text-size-adjust: 100%;
-	margin: 0;
-	padding: 0;
-	color: #7b858e;
-	font-family: AkkuratProLight, Helvetica;
-	font-size: 14px;
-	mso-margin-top-alt: 0px;
-	mso-margin-bottom-alt: 0px;
-	mso-padding-alt: 0px 0px 0px 0px;
+  -ms-text-size-adjust: 100%;
+  margin: 0;
+  padding: 0;
+  color: #7b858e;
+  font-family: AkkuratProLight, Helvetica;
+  font-size: 14px;
+  mso-margin-top-alt: 0px;
+  mso-margin-bottom-alt: 0px;
+  mso-padding-alt: 0px 0px 0px 0px;
 }
 .ExternalClass,  .ExternalClass p,  .ExternalClass span,  .ExternalClass font,  .ExternalClass td,  .ExternalClass div {
-	line-height: 100%;
+  line-height: 100%;
 }
 .ReadMsgBody {
-	width: 100%;
+  width: 100%;
 }
 .ExternalClass {
-	width: 100%;
+  width: 100%;
 }
 img {
-	outline: none;
-	text-decoration: none;
-	-ms-interpolation-mode: bicubic;
+  outline: none;
+  text-decoration: none;
+  -ms-interpolation-mode: bicubic;
 }
 a img {
-	border: none;
+  border: none;
 }
 html {
-	-webkit-text-size-adjust: none !important;
+  -webkit-text-size-adjust: none !important;
 }
 #outlook a {
-	padding: 0;/* Forces Outlook desktop to provide a "view in browser link" */
+  padding: 0;/* Forces Outlook desktop to provide a "view in browser link" */
 }
 .ExternalClass .outlook-button {
-	padding: 7px 30px 9px !important;/* Outlook.com does not like line-height:0px => adjusting padding top/bottom on our bulletproof CTA button */
+  padding: 7px 30px 9px !important;/* Outlook.com does not like line-height:0px => adjusting padding top/bottom on our bulletproof CTA button */
 }
 </style>
     <!-- TARGETS Outlook 2007/2010/2013 !-->
@@ -66,78 +64,78 @@ html {
     <!-- Carousel FALLBACK for Gmail Desktop !-->
     <style type="text/css">
 #first {
-	float: left;
+  float: left;
 }
 #third {
-	float: left;
+  float: left;
 }
 #second {
-	float: right;
+  float: right;
 }
 * [summary=gmail] {
-	max-width: 600px !important;
-	width: 600px !important;
-	display: block !important;
-	max-height: 100% !important;
-	font-size: 12px !important;
-	line-height: 100% !important;
-	overflow: visible !important;
+  max-width: 600px !important;
+  width: 600px !important;
+  display: block !important;
+  max-height: 100% !important;
+  font-size: 12px !important;
+  line-height: 100% !important;
+  overflow: visible !important;
 }
 * [summary=gmail] div[char="first"] {
-	padding-top: 180px !important;
-	width: 49px !important;
-	max-width: 49px !important;
+  padding-top: 180px !important;
+  width: 49px !important;
+  max-width: 49px !important;
 }
 * [summary=gmail] div[char="first"],  * [summary=gmail] div[char="third"] {
-	float: left !important;
+  float: left !important;
 }
 * [summary=gmail] div[char="second"] {
-	float: right !important;
-	padding-top: 180px !important;
-	width: 49px !important;
-	max-width: 49px !important;
+  float: right !important;
+  padding-top: 180px !important;
+  width: 49px !important;
+  max-width: 49px !important;
 }
 * [summary=gmail] div[char="first"] img,  * [summary=gmail] div[char="second"] img {
-	width: 49px !important;
-	max-width: 49px !important;
+  width: 49px !important;
+  max-width: 49px !important;
 }
 /**Initial State**/
         
 * [summary=gmail] div[char="third"] {
-	padding-left: 20px !important;
+  padding-left: 20px !important;
 }
 * [summary=gmail] div[char="third"] img[src*="protect2_1"] {
-	width: 475px !important;
-	max-width: 475px !important;
-	display: inline !important;
+  width: 475px !important;
+  max-width: 475px !important;
+  display: inline !important;
 }
 /**Hover effects**/
         
 * [summary=gmail] div[char="first"]:hover ~ div:last-child img[src*="protect2_3"] {
-	padding-top: 1px !important;
-	max-width: 474px !important;
-	width: auto !important;
+  padding-top: 1px !important;
+  max-width: 474px !important;
+  width: auto !important;
 }
 * [summary=gmail] div[char="first"]:hover ~ div:last-child img[src*="protect2_1"],  * [summary=gmail] div[char="first"]:hover ~ div:last-child img[src*="protect2_2"] {
-	display: none !important;
+  display: none !important;
 }
 * [summary=gmail] div[char="second"]:hover ~ div:last-child img[src*="protect2_3"],  * [summary=gmail] div[char="second"]:hover ~ div:last-child img[src*="protect2_1"] {
-	display: none !important;
+  display: none !important;
 }
 * [summary=gmail] div[char="second"]:hover ~ div:last-child img[src*="protect2_2"] {
-	padding-top: 1px !important;
-	max-width: 474px !important;
-	width: auto !important;
+  padding-top: 1px !important;
+  max-width: 474px !important;
+  width: auto !important;
 }
 /*Gmail doesn't show desktop only content*/
         
 * [summary=desktop-hide] {
-	display: none !important;
+  display: none !important;
 }
 /**Safe guard that all non-Gmail email clients will ignore table**/
         
 .gmail {
-	display: none !important;
+  display: none !important;
 }
 </style>
     <style type="text/css">
@@ -165,7 +163,7 @@ html {
             }
             #galleryIcons td {
                 padding: 0 !important;
-                text-align: center !important;				
+                text-align: center !important;        
             }
         }
         /**Target webkit only*/
@@ -183,10 +181,10 @@ html {
                 line-height: 0px;
                 font-size: 0px
             }
-			.play-button {
-				padding-top: 1px !important
-			}
-			
+      .play-button {
+        padding-top: 1px !important
+      }
+      
             /*Hide fallback content*/
             
             table#desktop-hide {
@@ -209,15 +207,15 @@ html {
                 margin: 0 auto;
                 left: 20px;
                 right: 0;
-				-webkit-tap-highlight-color: rgba(0,0,0,0);
-				}
+        -webkit-tap-highlight-color: rgba(0,0,0,0);
+        }
             #galleryImgs .bodyImgs img:not(.one) {
                 position: absolute;
                 top: 0;
                 left: 0;
                 right: 0;
                 margin: 0 auto;
-				}
+        }
             #galleryImgs img.two,
             #galleryImgs img.three {
                 display: block !important;
@@ -241,13 +239,13 @@ html {
             #galleryImgs img {
                 transition: 0.6s opacity;
             }
-			#galleryIcons div {
-	-webkit-backface-visibility: hidden;
+      #galleryIcons div {
+  -webkit-backface-visibility: hidden;
 }
             div.one {
                 width: 82px;
                 height: 82px;
-                background-image: url(https://mlsvc01-prod.s3.amazonaws.com/0401fb5f601/72d46776-dd4f-4d42-9b8a-319f5b98aad9.jpg?ver=1512205307000);
+                background-image: url(http://marketing-assets.nest.com/email-assets/images/marketing/announcement/protect-2/images/thumbnail_1.jpg);
                 background-position: -83px 1px;
                 background-repeat: no-repeat;
                 background-size: 165px 82px;
@@ -255,7 +253,7 @@ html {
             div.two {
                 width: 82px;
                 height: 82px;
-                background-image: url(https://mlsvc01-prod.s3.amazonaws.com/0401fb5f601/131f38bd-3b63-4fc7-afdb-a3a5a85006a9.jpg?ver=1512205307000);
+                background-image: url(http://marketing-assets.nest.com/email-assets/images/marketing/announcement/protect-2/images/thumbnail_2.jpg);
                 background-position: -83px 1px;
                 background-repeat: no-repeat;
                 background-size: 165px 82px;
@@ -263,7 +261,7 @@ html {
             div.three {
                 width: 82px;
                 height: 82px;
-                background-image: url(https://mlsvc01-prod.s3.amazonaws.com/0401fb5f601/5688d1c4-2538-463d-8786-659420e1fdcf.jpg?ver=1512205306000);
+                background-image: url(http://marketing-assets.nest.com/email-assets/images/marketing/announcement/protect-2/images/thumbnail_3.jpg);
                 background-position: -83px 1px;
                 background-repeat: no-repeat;
                 background-size: 165px 82px;
@@ -273,7 +271,7 @@ html {
             div.three:hover {
                 background-position: 0px 1px;
             }
-			
+      
             /*Creating initial State through a pre-checked radio button*/
             
             #initialState:checked ~ #gallery #galleryIcons div.one {
@@ -288,7 +286,7 @@ html {
             #container table#gallery td#galleryIcons div.one:hover,
             #container table#gallery td#galleryIcons div.two:hover,
             #container table#gallery td#galleryIcons div.three:hover {
-                background-position: 0px 1px;				
+                background-position: 0px 1px;       
             }
             /**Hover state for icons not being hovered on so current icon decreases in size**/
             
@@ -335,7 +333,7 @@ html {
             }
             #leftArrow1:checked ~ #gallery #galleryIcons div.one {
                 background-position: -83px 1px;
-				
+        
             }
             #leftArrow1:checked ~ #gallery #galleryIcons div.three {
                 background-position: 0px 1px;
@@ -449,7 +447,7 @@ html {
             }
             #rightArrow3:checked ~ #gallery #galleryIcons div.one {
                 background-position: 0px 1px;
-				
+        
             }
             /*Icon Product 1*/
             
@@ -458,7 +456,7 @@ html {
                 opacity: 0;
                 -webkit-backface-visibility: hidden;
                 backface-visibility: hidden;
-				
+        
             }
             #icon1:checked ~ #gallery #galleryImgs img.one {
                 opacity: 1;
@@ -469,8 +467,8 @@ html {
             #icon1:checked ~ #gallery #galleryIcons div.three {
                 background-position: -83px 1px;
             }
-			
-			#icon1:checked ~ #gallery #galleryIcons div.one {
+      
+      #icon1:checked ~ #gallery #galleryIcons div.one {
                 background-position: 0px 1px;
             }
             #icon1:checked ~ #gallery #galleryImgs label.one {
@@ -536,9 +534,9 @@ html {
                 padding-left: 0px !important;
                 padding-right: 0px !important;
             }
-			.play-button {
-				padding-top: 1px !important
-			}
+      .play-button {
+        padding-top: 1px !important
+      }
             *[class="mobile"] {
                 display: block !important;
                 width: 100% !important
@@ -616,7 +614,7 @@ html {
                 height: auto !important;
                 top: 90px !important;
             }
-			
+      
             [class="pbGallery"] {
                 padding-bottom: 130px !important;
             }
@@ -682,7 +680,7 @@ html {
         /* Target iPhone 6 */
         
         @media only screen and (min-width: 375px) and (max-width: 413px) {
-			
+      
             [class="hl"] {
                 font-size: 35px !important;
                 line-height: 37px !important;
@@ -803,7 +801,7 @@ html {
               <tr>
                   <td align="center" style="border-collapse: collapse" width="100%"><table align="center" border="0" cellpadding="0" cellspacing="0" style="background-color: #FFFFFF; color: #000000; font-family: AkkuratProLight, Helvetica, Arial, sans-serif; font-size: 48px; line-height: 55px">
                       <tr>
-                      <td align="center" class="hl" style="font-family: AkkuratProLight, Helvetica, Arial, sans-serif;font-size: 48px; color: #00afd8; line-height:50px; padding-top: 30px;">The Model 20.</td>
+                      <td align="center" class="hl" style="font-family: AkkuratProLight, Helvetica, Arial, sans-serif;font-size: 48px; color: #00afd8; line-height:50px; padding-top: 30px;">The new Nest Protect.</td>
                     </tr>
                     </table>
                   <table align="center" border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt;" width="100%">
@@ -811,7 +809,7 @@ html {
                       <td class="pb0" style="border-collapse: collapse; padding-bottom: 15px;" width="100%"><table align="center" border="0" cellpadding="0" cellspacing="0" style="background-color: #FFFFFF; color: #7b858e; font-family: AkkuratProLight,Helvetica; font-size: 14px; line-height: 22px">
                           <tr>
                           <td align="center" class="sl" style="font-family:AkkuratProLight, Helvetica, Arial, sans-serif;color:#8a9298; font-size:28px; line-height:35px; padding-right: 20px; padding-left: 20px;" width="100%">
-The sunglasses other sunglasses look up to.</td>
+The smoke alarm other alarms look up&nbsp;to.</td>
                         </tr>
                         </table></td>
                     </tr>
@@ -858,10 +856,7 @@ The sunglasses other sunglasses look up to.</td>
                       <td class="pb5" align="right" style="padding-bottom: 20px"><label class="one left" for="leftArrow1" style="display: none;"><img height="49" src="http://marketing-assets.nest.com/email-assets/images/marketing/announcement/protect-2/images/left_arrow.jpg" width="49"> </label>
                           <label class="two left" for="leftArrow2" style="display: none;"><img height="49" src="http://marketing-assets.nest.com/email-assets/images/marketing/announcement/protect-2/images/left_arrow.jpg" width="49"> </label>
                           <label class="three left" for="leftArrow3" style="display: none;"><img height="49" src="http://marketing-assets.nest.com/email-assets/images/marketing/announcement/protect-2/images/left_arrow.jpg" width="49"> </label></td>
-                      <td align="center" class="bodyImgs" style="position: relative; width: 492px" valign="middle">
-                        <img class="one w150" src="https://mlsvc01-prod.s3.amazonaws.com/0401fb5f601/80273628-5df3-42c3-a1b7-96daa74a44a2.jpg?ver=1512204474000" style="max-width: 492px; width: 100%; padding-top:40px" width="492">
-                        <img class="two w160" src="https://mlsvc01-prod.s3.amazonaws.com/0401fb5f601/bb83ee17-1f0d-4820-9582-c5e86940b1f2.jpg?ver=1512204474000" style="display: none; max-width: 492px; width: 100%; padding-top:30px" width="492">
-                        <img class="three w170" src="https://mlsvc01-prod.s3.amazonaws.com/0401fb5f601/6527969b-643b-47cd-a6ec-74d1a909b8ee.jpg?ver=1512204474000" style="display: none; max-width: 492px; width: 100%; padding-top:40px" width="492"></td>
+                      <td align="center" class="bodyImgs" style="position: relative; width: 492px" valign="middle"><img class="one w150" src="http://marketing-assets.nest.com/email-assets/images/marketing/announcement/protect-2/images/protect2_1.jpg" style="max-width: 492px; width: 100%; padding-top:40px" width="492"><img class="two w160" src="http://marketing-assets.nest.com/email-assets/images/marketing/announcement/protect-2/images/protect2_2.jpg" style="display: none; max-width: 492px; width: 100%; padding-top:30px" width="492"><img class="three w170" src="http://marketing-assets.nest.com/email-assets/images/marketing/announcement/protect-2/images/protect2_3.jpg" style="display: none; max-width: 492px; width: 100%; padding-top:40px" width="492"></td>
                       <td class="pb5" align="left" style="padding-bottom: 20px"><label class="one right" for="rightArrow1" style="display: none;"><img height="49" src="http://marketing-assets.nest.com/email-assets/images/marketing/announcement/protect-2/images/right_arrow.jpg" width="49"> </label>
                           <label class="two right" for="rightArrow2" style="display: none;"><img height="49" src="http://marketing-assets.nest.com/email-assets/images/marketing/announcement/protect-2/images/right_arrow.jpg" width="49"> </label>
                           <label class="three right" for="rightArrow3" style="display: none;"><img height="49" src="http://marketing-assets.nest.com/email-assets/images/marketing/announcement/protect-2/images/right_arrow.jpg" width="49"> </label></td>
@@ -869,7 +864,7 @@ The sunglasses other sunglasses look up to.</td>
                     </table>
                       <table class="mobile" border="0" cellpadding="0" cellspacing="0" style="display: none; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt;" width="100%">
                       <tr>
-                          <td align="center" class="bodyImgs" style="position: relative; width: 492px" valign="middle"><img class="one" src="https://mlsvc01-prod.s3.amazonaws.com/0401fb5f601/80273628-5df3-42c3-a1b7-96daa74a44a2.jpg?ver=1512204474000" style="max-width: 492px; width: 100%;" width="492"><img class="two" src="https://mlsvc01-prod.s3.amazonaws.com/0401fb5f601/bb83ee17-1f0d-4820-9582-c5e86940b1f2.jpg?ver=1512204474000" style="display: none; max-width: 492px; width: 89%;" width="492"><img class="three" src="https://mlsvc01-prod.s3.amazonaws.com/0401fb5f601/6527969b-643b-47cd-a6ec-74d1a909b8ee.jpg?ver=1512204474000" style="display: none; max-width: 492px; width: 100%;" width="492"></td>
+                          <td align="center" class="bodyImgs" style="position: relative; width: 492px" valign="middle"><img class="one" src="http://marketing-assets.nest.com/email-assets/images/marketing/announcement/protect-2/images/protect2_1_mobile.jpg" style="max-width: 492px; width: 100%;" width="492"><img class="two" src="http://marketing-assets.nest.com/email-assets/images/marketing/announcement/protect-2/images/protect2_2_mobile_1.jpg" style="display: none; max-width: 492px; width: 89%;" width="492"><img class="three" src="http://marketing-assets.nest.com/email-assets/images/marketing/announcement/protect-2/images/protect2_3_2_mobile.jpg" style="display: none; max-width: 492px; width: 100%;" width="492"></td>
                         </tr>
                     </table></td>
                 </tr>
@@ -882,7 +877,7 @@ The sunglasses other sunglasses look up to.</td>
               <!--<![endif]--> 
               <!-- Fallback - No carousel but a sweet animated gif-->
               <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt;" width="492" align="center" class="desktop-hide" id="desktop-hide">              <tr>
-                  <td align="center" width="76%" style="position: relative; font-size: 20px; padding-top:30px"><img src="https://mlsvc01-prod.s3.amazonaws.com/0401fb5f601/74d0142b-dd11-49f8-a4d7-3b2aabaaec3f.gif?ver=1512204475000" width="492" style="line-height: 285px; font-size: 350px; color:#00afd8" alt="○"></td>
+                  <td align="center" width="76%" style="position: relative; font-size: 20px; padding-top:30px"><img src="http://marketing-assets.nest.com/email-assets/images/marketing/announcement/protect-2/images/anim-US-opt.gif" width="492" style="line-height: 285px; font-size: 350px; color:#00afd8" alt="&#9675;"></td>
                 </tr>
               <tr>
                   <td height="15" style="font-size:0; line-height:0">&nbsp;</td>
@@ -906,8 +901,7 @@ The sunglasses other sunglasses look up to.</td>
                                   <![endif]-->
               <table align="center" border="0" cellpadding="0" cellspacing="0" class="wc" style="border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt;" width="100%">
               <tr>
-                  <td align="center" class="pb20 cb" style="font-family:AkkuratProLight, Helvetica, Arial, sans-serif;  font-size:15px; line-height: 21px;color:#7b858e; padding: 0 15px 35px 15px" width="100%">The Model 20's are a unisex frame shape that couple a classic wayfarer with our signature stainless steel arms. Polarized lenses and a form fitted frame make for a high quality pair of glasses that you can comfortably wear all day. Each pair comes with a heather grey sleeve and microfiber cleaning cloth.
-                  </td>
+                  <td align="center" class="pb20 cb" style="font-family:AkkuratProLight, Helvetica, Arial, sans-serif;  font-size:15px; line-height: 21px;color:#7b858e; padding: 0 15px 35px 15px" width="100%">This is the first home alarm you can hush from your phone without any extra hardware required. The&nbsp;first alarm with a Split&#8209;Spectrum sensor. It&nbsp;tests itself over 400 times a day and looks after you for up to 10&nbsp;years. It&nbsp;also tells you where the danger is and alerts your phone. Once&nbsp;again, there’s no other alarm quite like&nbsp;it.<a href="https://nest.com/smoke-co-alarm/meet-nest-protect/?utm_campaign=protect-2-launch-2015&utm_source=nest&utm_content&utm_medium=email&utm_content=watch-the-video#meet-nest-protect" style="font-family: AkkuratProLight, Helvetica, Arial, sans-serif;color: #00afd8; text-decoration:none; line-height: 21px;" target="_blank"> Watch&nbsp;the&nbsp;video&nbsp;<img src="http://marketing-assets.nest.com/email-assets/images/marketing/announcement/protect-2/images/play_btn.jpg" width="18" height="18" border="0" alt=">" style="color:#00afd8; font-size:12px; font-weight:bold; display: inline; vertical-align:top; padding-top:2px" class="play-button"></a></td>
                 </tr>
             </table>
               <!--[if (gte mso 9)|(IE)]>
@@ -929,7 +923,7 @@ The sunglasses other sunglasses look up to.</td>
       <table align="center" border="0" cellpadding="0" cellspacing="0" style="background-color: #7B858D; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt" width="100%">
     <tr>
           <td align="center" class="padding-bottom-20px" style="background-color: #7B858D; border-collapse: collapse; color: #ffffff; font-family: 'AkkuratProLight', Helvetica; font-size: 11px; line-height: 19px; padding-bottom: 25px; padding-top: 20px; text-align: center"><a href="https://nest.com/preferences?sId=sId&unsubscribe=true&utm_campaign=protect-2-launch-2015&utm_source=nest&utm_content&utm_medium=email&utm_content=footer-unsubscribe" style="color: #ffffff; text-decoration: none;">Unsubscribe</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="https://nest.com/preferences?sId=sId&manage=true&utm_campaign=protect-2-launch-2015&utm_source=nest&utm_content&utm_medium=email&utm_content=footer-preferences" style="color: #ffffff; text-decoration: none;">Edit Preferences</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="https://nest.com/legal/privacy-statement/?utm_campaign=protect-2-launch-2015&utm_source=nest&utm_content&utm_medium=email&utm_content=footer-privacy" style="color: #ffffff; text-decoration: none;">Privacy Policy</a> <br>
-        © 2017 Pathways LLC&nbsp;<a href="#" style="color: #ffffff; text-decoration: none;">Anywhere USA</a></td>
+        © 2015 Nest Labs, Inc.,&nbsp;<a href="#" style="color: #ffffff; text-decoration: none;">3400 Hillview Ave., Palo Alto, CA 94304</a></td>
         </tr>
     <tr>
           <td align="center" class="padding-bottom-20px" style="background-color: #7B858D; border-collapse: collapse; padding-bottom: 25px; text-align: center"><img src="http://marketing-assets.nest.com/email-assets/images/marketing/announcement/protect-2/images/identity.png" width="56" height="25" border="0" title="nest" style="color:#ffffff; font-size:20px; font-weight:bold"></td>
